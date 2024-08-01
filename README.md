@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Pantry Tracker
+
+## Project Description
+
+Pantry Tracker is a web application designed to help users manage their pantry inventory efficiently. Built with Next.js, React, and Firebase, this app allows users to add, remove, and update quantities of pantry items in real-time.
+
+## Features
+
+- Add new pantry items
+- Remove existing items
+- Update item quantities
+- Real-time inventory updates
+- Responsive design for various screen sizes
+
+## Technologies Used
+
+- **Frontend**: Next.js, React
+- **UI Components**: Material-UI (MUI)
+- **Backend**: Firebase (Firestore)
+- **Hosting**: Vercel
+- **Additional Tools**: OpenAI (for potential future features)
+- **CI/CD**: GitHub Actions (to be implemented)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js (v14 or later)
+- npm or yarn
+- Firebase account
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Click on "Add New Item" to add a new pantry item.
+- Use the "Add" and "Remove" buttons next to each item to update quantities.
+- Items are automatically removed from the list when their quantity reaches zero.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Acknowledgments
 
-## Learn More
+- Instructor: Bill Z
+- Next.js Documentation
+- Firebase Documentation
+- Material-UI Documentation
 
-To learn more about Next.js, take a look at the following resources:
+## Future Enhancements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Implement user authentication
+- Add categories for pantry items
+- Integrate OpenAI for smart inventory suggestions
+- Set up CI/CD pipeline using GitHub Actions
